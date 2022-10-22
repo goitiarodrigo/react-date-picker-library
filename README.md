@@ -42,7 +42,10 @@ export default App
 ```
 
 ## Example image 🚀
-![image](https://i.postimg.cc/Nf9FtQDL/image.png)
+
+<p align="center">
+  <img width="460" height="300" src="https://i.postimg.cc/Nf9FtQDL/image.png">
+</p>
 
 ### Variable types 🔧
 

@@ -3,9 +3,14 @@ This is a library for react. It is a library created entirely by me to be able t
 
 ### Installation 🔧
 
-```python
-yarn add react-date-picker-library
+```javascript
+yarn add react-pick-date-calendar
 ```
+or 
+```javascript
+npm i react-pick-date-calendar
+```
+
 ### Usage 🔧
 
 

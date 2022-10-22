@@ -32,8 +32,6 @@ const Calendar = (props) => {
     selectedFrom,
     backgroundMonth,
     svgFile,
-    widthContainer,
-    heightContainer,
     isClockEnabled,
   } = props
 
@@ -44,8 +42,8 @@ const Calendar = (props) => {
 
 
   return (
-    <div>
-      <div style={{width: widthContainer ?? '12rem', height: heightContainer ?? '2rem'}}>
+    <div className='container'>
+      <div style={{width: '12rem', height: '2.7rem'}}>
         <Calend
           direction={direction}
           type={type}

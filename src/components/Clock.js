@@ -14,7 +14,8 @@ const Clock = (props) => {
     }
 
     const handleSumDate = () => {
-        props.setAddedDates(props.date + ((clockValue.hour * 60) + clockValue.minute) * 60000)
+        const dateToAdd = props.date !== 0 ? props.date : Date.now()
+        props.setAddedDates(dateToAdd + ((clockValue.hour * 60) + clockValue.minute) * 60000)
     }
 
     const handleChangeInputValue = (e) => {
